@@ -1,0 +1,84 @@
+/* welcome section */
+.topsection{
+    background: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.555)),url(https://cdn.pixabay.com/photo/2017/10/13/12/29/hands-2847508__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: fit-content;
+    padding: 13% 80px;
+    color: white;
+    margin-top: 90px;
+}
+
+/* end welcome section */
+
+/* team */
+
+.team{
+    background-color: #98FB98;
+    padding: 50px 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.position{
+    color: rgba(128, 128, 128, 0.548);
+}
+
+.name{
+    color: #007500!important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
+.team h1{
+    text-align: center;
+    margin: 50px 0;
+    color: #007500;
+    text-shadow: 2px 2px 0px  #007500c7,
+    4px 4px 0px #0075005e,
+    6px 6px 0px #0075001c;
+}
+
+.row{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.membercard{
+    background-color: white !important;
+    padding: 40px !important;
+    height: fit-content !important;
+    max-width: 500px !important;
+    margin-right: 20px !important;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 20px !important;
+    transition: 2s;
+    cursor: pointer;
+    display: flex !important;
+    justify-content: space-between !important;
+    text-align: center !important;
+}
+.img{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+@media (max-width:1300px) {
+    .membercard{
+        display: flex !important;
+        justify-content: space-between !important;
+        flex-wrap: wrap !important;
+    }
+}
+.membercard img{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    margin-right: 20px !important;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.397) 0px 6px 6px;
+}
+/* team */

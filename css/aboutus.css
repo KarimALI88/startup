@@ -1,0 +1,75 @@
+/* welcome section */
+.topsection{
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)),url(https://cdn.pixabay.com/photo/2018/05/09/22/40/career-3386334__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: fit-content;
+    padding: 13% 80px;
+    color: white;
+    margin-top: 90px;
+}
+
+/* end welcome section */
+
+/* services */
+.services{
+    background-color: #98FB98;
+    padding: 50px;
+    text-align: center !important;
+}
+
+.productcard{
+    background-color: white !important;
+    padding: 30px !important;
+    min-height: 500px !important;
+    width: 350px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 20px !important;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+.serviceshead{
+    margin: 30px !important;
+    color: #007500;
+    text-shadow: 2px 2px 0px  #007500c7,
+    4px 4px 0px #0075005e,
+    6px 6px 0px #0075001c;
+    padding-bottom: 30px !important;
+}
+
+.nameofservice{
+    color: #007500;
+}
+
+
+.productcard img{
+    width: 200px !important;
+    height: 200px !important;
+    margin-bottom: 20px !important;
+}
+
+@media (max-width:1200px) {
+    .productcard img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .transformcard{
+        transform: scale(1.1) !important;
+        margin: 50px auto !important;
+    }
+}
+
+.transformcard{
+    transform: scale(1.1) !important;
+}
+/* end services */
